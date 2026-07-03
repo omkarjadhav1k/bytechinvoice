@@ -525,7 +525,7 @@ export default function App() {
             <div className="col sign">
               <h4>Authorized Signatory</h4>
               <div style={{ fontSize: 10, marginTop: 6 }}>For {sheetData.settings.company}</div>
-              <div className="script">{(sheetData.settings.company || '').split(' ')[0]}</div>
+              
               <div className="line">Authorized Signatory</div>
             </div>
           </div>
